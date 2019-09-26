@@ -1,13 +1,10 @@
 class Book
 
-  def initialize(title = "And Then There Were None", author, pages, genre)
+  def initialize(title)
     @title = title
-    @author = author
-    @pages = pages
-    @genre = genre
   end
 
-  def title=(title = "And Then There Were None")
+  def title=(title)
     @title = title
   end
 
